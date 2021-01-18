@@ -1,0 +1,32 @@
+{
+  "name": "MyPortfolio",
+  "version": "1.0.0",
+  "homepage": "https://vico-design.github.io/MyPortfolio",
+  "description": "��#\u0000 \u0000M\u0000y\u0000P\u0000o\u0000r\u0000t\u0000f\u0000o\u0000l\u0000i\u0000o\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "dependencies": {
+    "package.json": "^2.0.1",
+    "react-scripts": "^4.0.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^3.1.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vico-design/MyPortfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vico-design/MyPortfolio/issues"
+  }
+}
